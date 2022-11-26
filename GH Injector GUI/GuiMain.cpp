@@ -2695,9 +2695,6 @@ void GuiMain::setup()
 	{
 		open_console();
 	}
-		
-	char user_agent[] = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (JHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36";
-	UrlMkSetSessionOption(URLMON_OPTION_USERAGENT, user_agent, sizeof(user_agent), NULL);
 
 	if (updateCheck)
 	{
